@@ -1,0 +1,20 @@
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\bin\Debug\BartoszRodziewiczLab1.exe.config
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\bin\Debug\BartoszRodziewiczLab1.exe
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\bin\Debug\BartoszRodziewiczLab1.pdb
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.csprojResolveAssemblyReference.cache
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.FormLogin.resources
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.Properties.Resources.resources
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.csproj.GenerateResource.Cache
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.exe
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.pdb
+D:\xxxdffsad\c#\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.FormLogged.resources
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\bin\Debug\BartoszRodziewiczLab1.exe.config
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\bin\Debug\BartoszRodziewiczLab1.exe
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\bin\Debug\BartoszRodziewiczLab1.pdb
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.csprojResolveAssemblyReference.cache
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.FormLogged.resources
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.FormLogin.resources
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.Properties.Resources.resources
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.csproj.GenerateResource.Cache
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.exe
+D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab1\BartoszRodziewiczLab1\obj\Debug\BartoszRodziewiczLab1.pdb
