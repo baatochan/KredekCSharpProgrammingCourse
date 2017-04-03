@@ -8,6 +8,6 @@ namespace BartoszRodziewiczLab2
 {
     internal interface IMovable
     {
-        void Move();
+        string Move();
     }
 }

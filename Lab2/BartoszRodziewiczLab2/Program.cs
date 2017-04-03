@@ -11,22 +11,32 @@ namespace BartoszRodziewiczLab2 {
             Bicycle myBike = new Bicycle();
             Vehicle myVehicle;
 
-            myCar.Move();
+            Console.WriteLine(myCar.Move());
             Console.WriteLine("Mam "+ myCar.NumberOfWheels+ " koła.");
             Console.WriteLine();//pusta linia
 
-            myBike.Move();
+            Console.WriteLine(myBike.Move());
             Console.WriteLine("Mam "+ myBike.NumberOfWheels+ " koła.");
             Console.WriteLine();//pusta linia
 
             myVehicle = myCar;
-            myVehicle.Move();
+            Console.WriteLine(myVehicle.Move());
             Console.WriteLine("Mam "+ myVehicle.NumberOfWheels+ " koła.");
             Console.WriteLine();//pusta linia
 
             myVehicle = myBike;
-            myVehicle.Move();
+            Console.WriteLine(myVehicle.Move());
             Console.WriteLine("Mam "+ myVehicle.NumberOfWheels+ " koła.");
+            Console.WriteLine();//pusta linia
+
+            Vehicle mySecondVehicle = new Car();
+            Console.WriteLine(mySecondVehicle.Move());
+            Console.WriteLine("Mam " + mySecondVehicle.NumberOfWheels + " koła.");
+            Console.WriteLine();//pusta linia
+
+            Vehicle myThirdVehicle = new Bicycle();
+            Console.WriteLine(myThirdVehicle.Move());
+            Console.WriteLine("Mam " + myThirdVehicle.NumberOfWheels + " koła.");
             Console.WriteLine();//pusta linia
 
             Console.ReadKey();//blokuje automatyczne zamkniecie konsoli

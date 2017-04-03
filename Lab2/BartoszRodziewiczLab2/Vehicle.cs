@@ -10,9 +10,9 @@ namespace BartoszRodziewiczLab2
     {
         public int NumberOfWheels { get; set; }
 
-        public void Move()
+        public string Move()
         {
-            Console.WriteLine("Ja jadeeeee! :)");
+            return "Ja jadeeeee! :)";
         }
     }
 }

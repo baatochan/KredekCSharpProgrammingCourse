@@ -8,6 +8,6 @@ namespace BartoszRodziewiczLab2
 {
     public class Base
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
     }
 }

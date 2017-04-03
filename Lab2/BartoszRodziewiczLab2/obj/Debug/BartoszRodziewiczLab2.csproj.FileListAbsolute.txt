@@ -10,3 +10,9 @@ D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewicz
 D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab2\BartoszRodziewiczLab2\obj\Debug\BartoszRodziewiczLab2.csprojResolveAssemblyReference.cache
 D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab2\BartoszRodziewiczLab2\obj\Debug\BartoszRodziewiczLab2.exe
 D:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\BartoszRodziewiczLab2\BartoszRodziewiczLab2\obj\Debug\BartoszRodziewiczLab2.pdb
+C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab2\BartoszRodziewiczLab2\bin\Debug\BartoszRodziewiczLab2.exe.config
+C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab2\BartoszRodziewiczLab2\bin\Debug\BartoszRodziewiczLab2.exe
+C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab2\BartoszRodziewiczLab2\bin\Debug\BartoszRodziewiczLab2.pdb
+C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab2\BartoszRodziewiczLab2\obj\Debug\BartoszRodziewiczLab2.csprojResolveAssemblyReference.cache
+C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab2\BartoszRodziewiczLab2\obj\Debug\BartoszRodziewiczLab2.exe
+C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab2\BartoszRodziewiczLab2\obj\Debug\BartoszRodziewiczLab2.pdb
