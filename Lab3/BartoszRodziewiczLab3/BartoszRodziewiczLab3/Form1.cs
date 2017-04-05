@@ -23,5 +23,11 @@ namespace BartoszRodziewiczLab3
         {
             Sloths.showAllSloths(sqlConnection, dataGridViewZoo);
         }
+
+        private void buttonAdd_Click(object sender, System.EventArgs e)
+        {
+            Animal.addAnimal(sqlConnection, textBoxSpecies.Text, textBoxAmount.Text);
+            Animal.showAllAnimals(sqlConnection, dataGridViewZoo);
+        }
     }
 }

@@ -13,5 +13,15 @@ namespace BartoszRodziewiczLab3
             sqlDataAdapter.Fill(dataTable);
             dataGridView.DataSource = dataTable;
         }
+
+        public static void addAnimal(SqlConnection sqlConnection, string species, string amount) 
+        {
+            sqlConnection.Open();
+            string command = $"INSERT INTO Animals (Species, Amount) values('{species}','{amount}')";
+            SqlCommand sqlCommand = new SqlCommand(command,sqlConnection);
+            sqlCommand.ExecuteNonQuery();
+            MessageBox.Show("wyszlo!");
+            sqlConnection.Close();
+        }
     }
 }
