@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BartoszRodziewiczLab3
+namespace Zoo
 {
     static class Program
     {
@@ -13,7 +16,7 @@ namespace BartoszRodziewiczLab3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormZoo());
+            Application.Run(new Form1());
         }
     }
 }

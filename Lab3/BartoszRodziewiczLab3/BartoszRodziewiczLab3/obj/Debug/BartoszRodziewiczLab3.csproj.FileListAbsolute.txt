@@ -2,8 +2,8 @@ C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewic
 C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\bin\Debug\BartoszRodziewiczLab3.exe
 C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\bin\Debug\BartoszRodziewiczLab3.pdb
 C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\obj\Debug\BartoszRodziewiczLab3.csprojResolveAssemblyReference.cache
-C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\obj\Debug\BartoszRodziewiczLab3.FormZoo.resources
 C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\obj\Debug\BartoszRodziewiczLab3.Properties.Resources.resources
 C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\obj\Debug\BartoszRodziewiczLab3.csproj.GenerateResource.Cache
 C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\obj\Debug\BartoszRodziewiczLab3.exe
 C:\Users\barto\OneDrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\obj\Debug\BartoszRodziewiczLab3.pdb
+C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3\BartoszRodziewiczLab3\obj\Debug\Zoo.Form1.resources

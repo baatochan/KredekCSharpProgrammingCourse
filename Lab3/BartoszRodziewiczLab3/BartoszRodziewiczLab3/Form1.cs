@@ -1,33 +1,70 @@
-﻿using System.Data.SqlClient;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BartoszRodziewiczLab3
+namespace Zoo
 {
-    public partial class FormZoo : Form
+    public partial class Form1 : Form
     {
         SqlConnection sqlConnection;
-        SqlDataAdapter sqlDataAdapter;
-        
-        public FormZoo()
+
+        public Form1()
         {
             InitializeComponent();
-            sqlConnection = new SqlConnection("Data Source=BARTOSZ-PC2\\SQLEXPRESS; database=Zoo; Trusted_Connection=yes");
+            sqlConnection = new SqlConnection("Data Source=BARTOSZ-PC2\\SQLEXPRESS; database=ZOO;Trusted_Connection=yes");
+            var Species = Animals.ListOfSpecies(sqlConnection);
+            foreach (string n in Species)
+            {
+                comboBoxSpecies.Items.Add(n);
+            }
         }
 
-        private void buttonAllAnimals_Click(object sender, System.EventArgs e)
+        private void buttonAnimals_Click(object sender, EventArgs e)
         {
-            Animal.showAllAnimals(sqlConnection, dataGridViewZoo);
+            Animals.ShowAllAnimals(sqlConnection, dataGridViewZoo);
         }
 
-        private void buttonShowAllSloths_Click(object sender, System.EventArgs e)
+        private void buttonSloths_Click(object sender, EventArgs e)
         {
-            Sloths.showAllSloths(sqlConnection, dataGridViewZoo);
+            Sloths.ShowAllSloths(sqlConnection, dataGridViewZoo);
         }
 
-        private void buttonAdd_Click(object sender, System.EventArgs e)
+        private void buttonAddZookeeper_Click(object sender, EventArgs e)
         {
-            Animal.addAnimal(sqlConnection, textBoxSpecies.Text, textBoxAmount.Text);
-            Animal.showAllAnimals(sqlConnection, dataGridViewZoo);
+            Zookeepers.AddZookeeper(sqlConnection, dataGridViewZoo, textBoxZookeeperName.Text, textBoxZookeeperSurname.Text);
+        }
+
+        private void buttonShowAllZookeepers_Click(object sender, EventArgs e)
+        {
+           Zookeepers.ShowAllZookeepers(sqlConnection, dataGridViewZoo);
+
+        }
+
+        private void buttonFindAge_Click(object sender, EventArgs e)
+        {
+            Sloths.AgeBeetween(sqlConnection, dataGridViewZoo, textBoxAgeLeft.Text, textBoxAgeRight.Text);
+        }
+
+        private void buttonOneMoreAnimal_Click(object sender, EventArgs e)
+        {
+            Animals.AddMore(sqlConnection, dataGridViewZoo, comboBoxSpecies.Text, textBoxNumberOfNewAnimals.Text);
+        }
+
+        private void textBoxFindSloths_TextChanged(object sender, EventArgs e)
+        {
+            Sloths.FindByName(sqlConnection, dataGridViewZoo, textBoxFindSloths.Text);
+        }
+
+        private void buttonRemoveZookeeper_Click(object sender, EventArgs e)
+        {
+            Zookeepers.RemoveZookeeper(sqlConnection, dataGridViewZoo, textBoxZookeeperName.Text, textBoxZookeeperSurname.Text);
         }
     }
 }
