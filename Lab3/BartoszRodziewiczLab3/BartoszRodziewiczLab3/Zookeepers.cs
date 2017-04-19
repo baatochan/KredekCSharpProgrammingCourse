@@ -68,7 +68,7 @@ namespace Zoo
                 string command = $"DELETE FROM Zookeepers WHERE name = '{name}' AND surname = '{surname}'";
                 sqlCommand = new SqlCommand(command, sqlConnection);
                 sqlCommand.ExecuteNonQuery();
-                MessageBox.Show("Usunieto");
+                //MessageBox.Show("Usunieto");
                 ShowAllZookeepers(sqlConnection, dataGridView);
                 sqlConnection.Close();
             }
