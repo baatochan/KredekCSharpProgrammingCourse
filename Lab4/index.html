@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link href="imports/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/ico">
+    <title>Bāto-chan's Corner</title>
+
+    <script src="imports/jquery-3.1.1.slim.min.js"></script>
+    <script src="imports/tether.min.js"></script>
+    <script src="imports/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <a class="nav-link" href="#home">
+                <img src="img/logo.png">
+            </a>
+        </div> <!-- logo -->
+        <ul class="row nav nav-tabs">
+            <li><a class="nav-link active" href="#home">Strona glowna</a></li>
+            <li><a class="nav-link" href="#about">O nas</a></li>
+            <li><a class="nav-link" href="#store" id="store_link">Oferta</a></li> <!-- wiem ze to koszmarne rozwiazanie problemu :/ -->
+            <li><a class="nav-link" href="#cart">Koszyk</a></li>
+            <li><a class="nav-link" href="#admin">Panel administracyjny</a></li>
+        </ul> <!-- menu -->
+        <div class="row">
+            <article class="container jumbotron" id="home">
+                <h1>Witamy w jedynym takim sklepie w całym internecie.</h1>
+                <h2>Sprzedajemy wyłącznie oryginalne przedmioty prosto z Equestrii.</h2>
+                <h3>Zapraszamy do przejrzenia <a class="inline-nav-link" href="#store">naszej oferty</a>.</h3>
+            </article>
+            <article class="container jumbotron" id="about">
+                <h2>Jesteśmy nowym i jedynym sklepem sprzedającym produkty z Equestrii.</h2>
+                <p>Tylko u nas dostaniesz takie artykuły jak smoczy asystent, czy cydr prosto z Sweet Apple Acres.</p>
+                <p>Wszystkie towary w naszej ofercie są oryginalne i pochodzą z Equestrii.</p>
+                <p>Wysyłka jest darmowa, a zamówienia wysyłamy poprzez Equestria Post.</p>
+                <p>Najprościej kontaktować się z nami przez smoczą pocztę, jednak jeśli nie posiadasz smoka to napisz maila na <a href="mailto:kontakt@baatochanscorner.pl">kontakt@baatochanscorner.pl</a>.</p>
+            </article>
+            <article class="container jumbotron" id="store">
+                <div class="row">
+                    <div class="col product" id="productTemplate">
+                        <div><img class="product-photo" src="img/products/default.png" alt="Zdjęcie produktu"></div>
+                        <div>
+                            <h4 class="product-title">Nazwa produktu</h4>
+                            <p class="product-price">0.00 PLN</p>
+                            <button type="button" class="btn btn-primary product-toBasket-button">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="container jumbotron" id="cart">
+                <div id="emptyBasketNotification">
+                    <h4>Twoj koszyk jest pusty.</h4>
+                </div>
+                <div id="basketContent">
+                    <h4>Zawartość koszyka:</h4>
+                    <ul>
+                        <li class="row" id="basketContentHeader">
+                            <div class="col-10 basketEntry-title"><h6>Nazwa produktu</h6></div>
+                            <div class="col basketEntry-price"><h6>Cena</h6></div>
+                        </li>
+                        <li class="row" id="basketContentFooter">
+                            <div class="col-8"></div>
+                            <div class="col">Razem</div>
+                            <div class="col" id="totalPrice">X PLN</div>
+                        </li>
+                    </ul>
+                    <div id="basketContentButtons">
+                        <button type="button" class="btn btn-secondary" id="emptyBasket">Oproznij koszyk</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orderConfirmation">Do kasy</button>
+                    </div>
+                </div>
+            </article>
+            <article class="container jumbotron" id="admin">
+                <h3>Dodaj nowy produkt</h3>
+                <form>
+                    <div>
+                        <label for="newElementTitle">Nazwa produktu:</label>
+                        <input type="text" id="newElementTitle" value="">
+                    </div>
+                    <div>
+                        <label for="newElementPrice">Cena produktu:</label>
+                        <input type="text" id="newElementPrice" value="">
+                    </div>
+                    <input type="submit" value="Dodaj" id="addNewProduct">
+                    <p>Niestety nie ma opcji dodania zjęcia do nowo dodawanego produktu :(</p>
+                </form>
+            </article>
+        </div>
+    </div>
+    <div class="modal fade" id="orderConfirmation" tabindex="-1" role="dialog" aria-labelledby="orderConfirmationLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderConfirmationLabel">Potwierdź zamówienie</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Potwierdzenie zamówienia oznacza obowiązek zapłaty.</p>
+                    <p>Płatność następuje przy odbiorze.</p>
+                    <p>Twoje dane, jak i adres do wysyłki już mamy dzięki współpracy z wywiadem Princess Celestii.</p>
+                    <img src="img/bananas.png" alt="Easter Egg :)">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Wróć</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" id="confirmOrder">Potwierdzam</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
