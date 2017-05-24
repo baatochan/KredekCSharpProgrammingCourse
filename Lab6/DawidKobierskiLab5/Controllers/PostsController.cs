@@ -106,7 +106,10 @@ namespace DawidKobierskiLab5.Controllers
             {
                 post = ctx.Posts.SingleOrDefault(p => p.Id == id);
                 ctx.Comments.Add(comment);
-                //post.Comments.
+
+                IEnumerable<Comment> newComment = new List<Comment> { comment };
+                post.Comments.Concat(newComment);
+
                 ctx.SaveChanges();
             }
 
