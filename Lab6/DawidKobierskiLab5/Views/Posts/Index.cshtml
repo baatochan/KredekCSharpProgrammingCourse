@@ -1,0 +1,48 @@
+﻿@model List<DawidKobierskiLab5.Models.Post>
+
+@{
+    ViewBag.Title = "Posty";
+}
+
+<h2>Posty</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title pull-left" style="margin-top: 12px; margin-left:10px;">@post.Title</h3>
+                        @Html.ActionLink("Edytuj", "Edit", new { id = post.Id }, new { @class = "btn btn-primary pull-right", @style = "margin: 5px;" })
+                        @using (Html.BeginForm("Delete", "Posts", FormMethod.Post))
+                        {
+                            @Html.Hidden("id", post.Id)
+                                <button type="submit" class="btn btn-danger pull-right" style="margin:5px;">Usuń</button>
+                        }
+                        <div style="clear:both"></div>
+                    </div>
+                    <div class="panel-body" style="word-wrap: break-word;">
+                        @post.Body
+                    </div>
+                    <div class="panel-footer">
+                        <ul style="list-style-type: none; margin:0">
+                            @if (post.Comments != null) { foreach (var comment in post.Comments) {
+                                <li class="row" style="margin: 10px 0">
+                                    <span>@comment.Author</span>
+                                    <span>: </span>
+                                    <span>@comment.Content</span>
+                                </li>
+                                } }
+                            @if (post.Comments == null) {
+                                <li class="row" style="margin-top: 10px; margin-bottom: 10px;">Brak komentarzy</li>
+                            }
+                        </ul>
+                        @Html.ActionLink("Dodaj Komentarz", "AddComment", new { id = post.Id }, new { @class = "btn btn-primary pull-right", @style = "margin: 0;" })
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
