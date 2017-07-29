@@ -1,9 +1,0 @@
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\bin\Debug\Rodziewicz_Egzamin_D.exe.config
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\bin\Debug\Rodziewicz_Egzamin_D.exe
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\bin\Debug\Rodziewicz_Egzamin_D.pdb
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\obj\Debug\Rodziewicz_Egzamin_D.csprojResolveAssemblyReference.cache
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\obj\Debug\Rodziewicz_Egzamin_D.Form1.resources
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\obj\Debug\Rodziewicz_Egzamin_D.Properties.Resources.resources
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\obj\Debug\Rodziewicz_Egzamin_D.csproj.GenerateResource.Cache
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\obj\Debug\Rodziewicz_Egzamin_D.exe
-C:\Users\barto\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Egzamin\Rodziewicz_Egzamin_D\Rodziewicz_Egzamin_D\obj\Debug\Rodziewicz_Egzamin_D.pdb

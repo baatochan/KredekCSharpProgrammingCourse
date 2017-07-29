@@ -1,9 +1,0 @@
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\bin\Debug\BartoszRodziewiczLab3Task1.exe.config
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\bin\Debug\BartoszRodziewiczLab3Task1.exe
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\bin\Debug\BartoszRodziewiczLab3Task1.pdb
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\obj\Debug\BartoszRodziewiczLab3Task1.csprojResolveAssemblyReference.cache
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\obj\Debug\BartoszRodziewiczLab3Task1.FormLibrary.resources
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\obj\Debug\BartoszRodziewiczLab3Task1.Properties.Resources.resources
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\obj\Debug\BartoszRodziewiczLab3Task1.csproj.GenerateResource.Cache
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\obj\Debug\BartoszRodziewiczLab3Task1.exe
-C:\Users\barto\onedrive\Documents\Developer\Visual Studio 2017\bartosz_rodziewicz\Lab3\BartoszRodziewiczLab3Task1\BartoszRodziewiczLab3Task1\obj\Debug\BartoszRodziewiczLab3Task1.pdb
